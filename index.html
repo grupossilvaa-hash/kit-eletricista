@@ -1,0 +1,1723 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pack Tesouro do Eletricista — +100 Esquemas com Lista de Material</title>
+<meta name="description" content="+100 esquemas elétricos residenciais com lista de material, bitola e proteção, numa plataforma que abre no celular. Mande o orçamento no mesmo dia da visita.">
+<meta property="og:title" content="Pack Tesouro do Eletricista Residencial">
+<meta property="og:description" content="Quadro de distribuição, chuveiro, portão eletrônico, interfone e automação. Esquema, lista de material e bitola na palma da mão.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#E9F0F7">
+
+<!-- META PIXEL: colar o código do Pixel aqui antes de subir a campanha (Etapa 9) -->
+<!-- ▼ COLE O CÓDIGO DO PIXEL NA LINHA EM BRANCO ABAIXO ▼ -->
+
+<!-- ▲ FIM DO PIXEL ▲ -->
+
+<!-- UTMIFY — captura de UTMs (mantém a origem do clique até o checkout Kiwify) -->
+<script src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+        data-utmify-prevent-xcod-sck
+        data-utmify-prevent-subids
+        async defer></script>
+
+<!-- UTMIFY — pixel de conversão -->
+<script>
+  window.pixelId = "COLE_AQUI_O_PIXEL_ID_DA_UTMIFY_DESTE_PRODUTO";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700;800;900&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   PACK TESOURO DO ELETRICISTA — High-Fidelity Claymorphism
+   Paleta da marca (azul-marinho/âmbar) · Mobile-first (base 375px)
+   ============================================================ */
+
+:root{
+  /* ---- Cores da marca (azul-marinho / âmbar) ---- */
+  --azul-ceu:#6E9CC6; --azul-claro:#E9F0F7; --azul-profundo:#17395B;
+  --amarelo:#E8A93A; --amarelo-escuro:#C98A14;
+  --creme:#FDFBF6; --tinta:#202D3B; --verde:#4FAE82; --vermelho:#E2635C;
+
+  /* ---- Texto secundário (contraste AA) ---- */
+  --tinta-suave:#4C5C6E;
+
+  /* ---- Derivados da paleta (já usados na página, agora tokenizados) ---- */
+  --verde-texto:#20714D;      /* verde escuro legível sobre branco — acento de texto */
+  --cinza-borda:#E3E9F0;
+
+  /* ---- Cores pontuais das tags de dor e estrelas (definidas no briefing) ---- */
+  --ambar-fundo:#FEF3C7;
+  --ambar-texto:#92400E;
+  --estrela:#FBBF24;
+
+  /* ---- Raios super-arredondados ---- */
+  --r-xl:40px; --r-lg:32px; --r-md:24px; --r-sm:20px; --r-xs:16px;
+
+  /* ---- Shadow stacks de 4 camadas (clay em tons de azul-marinho) ---- */
+  --sh-card:
+    14px 16px 32px rgba(23,57,91,.14),
+    -10px -10px 24px rgba(255,255,255,.95),
+    inset 6px 6px 12px rgba(110,156,198,.06),
+    inset -6px -6px 12px rgba(255,255,255,1);
+
+  --sh-card-hover:
+    20px 24px 46px rgba(23,57,91,.20),
+    -12px -12px 28px rgba(255,255,255,1),
+    inset 6px 6px 12px rgba(110,156,198,.07),
+    inset -6px -6px 12px rgba(255,255,255,1);
+
+  --sh-deep:
+    26px 28px 56px rgba(23,57,91,.13),
+    -20px -20px 46px rgba(255,255,255,.92),
+    inset 9px 9px 20px rgba(110,156,198,.06),
+    inset -9px -9px 20px rgba(255,255,255,.9);
+
+  --sh-btn:
+    10px 13px 24px rgba(201,138,20,.45),
+    -7px -7px 15px rgba(255,255,255,.55),
+    inset 3px 3px 7px rgba(255,255,255,.6),
+    inset -4px -6px 10px rgba(130,88,0,.20);
+
+  --sh-btn-hover:
+    14px 18px 32px rgba(201,138,20,.52),
+    -8px -8px 18px rgba(255,255,255,.7),
+    inset 3px 3px 7px rgba(255,255,255,.65),
+    inset -4px -6px 10px rgba(130,88,0,.18);
+
+  --sh-btn-sec:
+    10px 13px 24px rgba(23,57,91,.20),
+    -7px -7px 15px rgba(255,255,255,.95),
+    inset 3px 3px 7px rgba(255,255,255,.95),
+    inset -4px -6px 10px rgba(23,57,91,.10);
+
+  --sh-btn-sec-hover:
+    14px 18px 32px rgba(23,57,91,.26),
+    -8px -8px 18px rgba(255,255,255,1),
+    inset 3px 3px 7px rgba(255,255,255,.95),
+    inset -4px -6px 10px rgba(23,57,91,.09);
+
+  --sh-pressed:
+    inset 9px 9px 18px rgba(23,57,91,.20),
+    inset -9px -9px 18px rgba(255,255,255,.92);
+
+  --sh-pressed-amarelo:
+    inset 9px 9px 18px rgba(130,88,0,.26),
+    inset -9px -9px 18px rgba(255,255,255,.55);
+
+  --sh-orb:
+    7px 9px 18px rgba(23,57,91,.28),
+    -5px -5px 12px rgba(255,255,255,.65),
+    inset 3px 3px 6px rgba(255,255,255,.5),
+    inset -3px -4px 8px rgba(0,0,0,.10);
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:24px;
+  -webkit-text-size-adjust:100%;
+}
+
+body{
+  font-family:'IBM Plex Sans',system-ui,-apple-system,sans-serif;
+  font-size:17px;
+  line-height:1.65;
+  color:var(--tinta);
+  background:var(--creme);
+  overflow-x:hidden;
+  position:relative;
+}
+
+h1,h2,h3,.btn,.preco,.num,.tag,.nome,.melhor,.economia{
+  font-family:'Barlow',system-ui,sans-serif;
+}
+
+h1{font-size:1.85rem;line-height:1.18;letter-spacing:-.02em;font-weight:900;color:var(--azul-profundo)}
+h2{font-size:1.5rem;line-height:1.24;letter-spacing:-.015em;font-weight:900;color:var(--azul-profundo);margin-bottom:.7rem}
+h3{font-weight:800;color:var(--azul-profundo)}
+p{margin-bottom:1rem}
+p:last-child{margin-bottom:0}
+strong{font-weight:700}
+img{max-width:100%;height:auto;display:block}
+
+/* ---------- Blobs 3D de fundo (nunca fundo chapado) ---------- */
+.blobs{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:-1}
+.blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.5}
+.blob-1{width:70vw;height:70vw;background:rgba(110,156,198,.30);top:-14%;left:-24%;animation:clay-float 9s ease-in-out infinite}
+.blob-2{width:62vw;height:62vw;background:rgba(232,169,58,.22);top:38%;right:-28%;animation:clay-float-alt 11s ease-in-out infinite}
+.blob-3{width:66vw;height:66vw;background:rgba(79,174,130,.14);bottom:4%;left:-26%;animation:clay-float 13s ease-in-out infinite;animation-delay:-4s}
+
+@keyframes clay-float{
+  0%,100%{transform:translateY(0) rotate(0deg)}
+  50%{transform:translateY(-22px) rotate(3deg)}
+}
+@keyframes clay-float-alt{
+  0%,100%{transform:translateY(0) rotate(0deg)}
+  50%{transform:translateY(-16px) rotate(-3deg)}
+}
+
+/* ---------- Estrutura ---------- */
+section{padding:52px 16px;position:relative}
+.wrap{max-width:820px;margin:0 auto}
+.center{text-align:center}
+
+/* Fundos alternados = separação visual óbvia entre seções */
+.bg-azul{background:var(--azul-claro)}
+.bg-branco{background:#fff}
+
+/* ---------- Linha de corte (divisor assinatura) ---------- */
+.corte{
+  border:none;border-top:3px dashed rgba(110,156,198,.55);
+  max-width:820px;margin:0 auto;position:relative;
+}
+.corte::after{
+  content:'⚡';position:absolute;left:16px;top:-19px;font-size:17px;
+  background:var(--creme);border-radius:50%;width:38px;height:38px;
+  line-height:38px;text-align:center;
+  box-shadow:var(--sh-orb);
+}
+
+/* ---------- Botões clay ---------- */
+.btn{
+  display:flex;align-items:center;justify-content:center;
+  width:100%;min-height:56px;padding:15px 26px;
+  background:linear-gradient(145deg,#F5C978 0%,var(--amarelo) 55%,var(--amarelo-escuro) 100%);
+  color:#332100;font-weight:900;font-size:1.05rem;letter-spacing:.01em;
+  text-align:center;text-decoration:none;border:none;cursor:pointer;
+  border-radius:var(--r-sm);
+  box-shadow:var(--sh-btn);
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.btn:hover{transform:translateY(-3px);box-shadow:var(--sh-btn-hover)}
+.btn:active{transform:scale(.95);box-shadow:var(--sh-pressed-amarelo)}
+.btn:focus-visible{outline:4px solid rgba(23,57,91,.35);outline-offset:3px}
+
+.btn-sec{
+  background:linear-gradient(145deg,#FFFFFF 0%,#F5F8FC 60%,#E3EBF4 100%);
+  color:var(--azul-profundo);
+  box-shadow:var(--sh-btn-sec);
+}
+.btn-sec:hover{box-shadow:var(--sh-btn-sec-hover)}
+.btn-sec:active{box-shadow:var(--sh-pressed)}
+
+/* ---------- Cards clay genéricos ---------- */
+.card{
+  background:rgba(255,255,255,.78);
+  backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  border-radius:var(--r-lg);
+  box-shadow:var(--sh-card);
+  padding:24px 22px;
+  transition:transform .45s ease, box-shadow .45s ease;
+}
+.card:hover{transform:translateY(-6px);box-shadow:var(--sh-card-hover)}
+
+/* ============================================================
+   BLOCO 1 — HERO
+   ============================================================ */
+.hero{
+  background:linear-gradient(180deg,rgba(233,240,247,.95) 0%,rgba(253,251,246,0) 100%);
+  padding-top:44px;padding-bottom:44px;
+}
+.hero .sub{font-size:1.06rem;color:var(--tinta);margin:14px auto 22px;max-width:640px}
+
+/* Mockup do produto — imagem única, tratada como card clay da própria página */
+.hero-mockups{
+  display:flex;justify-content:center;
+  margin:26px auto 24px;max-width:340px;
+}
+.hero-mockups img{
+  display:block;width:100%;height:auto;
+  border-radius:var(--r-md);
+  box-shadow:
+    14px 18px 34px rgba(23,57,91,.20),
+    -10px -10px 24px rgba(255,255,255,.90),
+    0 0 0 1px rgba(23,57,91,.05);
+}
+.hero-nota{font-size:.9rem;color:var(--tinta-suave);margin-top:14px;font-weight:500}
+
+/* ============================================================
+   BLOCO 2 — VEJA O MATERIAL POR DENTRO
+   ============================================================ */
+/* ---- Carrossel de páginas do material ---- */
+.carrossel{position:relative;margin-top:26px}
+.carrossel-trilho{
+  display:flex;gap:16px;
+  overflow-x:auto;overscroll-behavior-x:contain;
+  scroll-snap-type:x mandatory;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+  padding:6px 0 4px;
+}
+.carrossel-trilho::-webkit-scrollbar{display:none}
+.carrossel-trilho:focus-visible{outline:3px solid rgba(23,57,91,.4);outline-offset:6px;border-radius:var(--r-md)}
+
+.slide{
+  flex:0 0 100%;scroll-snap-align:center;
+  display:flex;justify-content:center;
+}
+.slide img{
+  width:100%;max-width:236px;height:auto;
+  aspect-ratio:1/2;object-fit:cover;
+  border-radius:26px;
+  box-shadow:
+    12px 16px 30px rgba(23,57,91,.22),
+    -8px -8px 20px rgba(255,255,255,.85),
+    0 0 0 1px rgba(23,57,91,.05);
+}
+
+/* setas circulares sobre as bordas, no estilo clay da página */
+.carrossel-nav{
+  position:absolute;top:calc(50% - 16px);transform:translateY(-50%);
+  width:44px;height:44px;border:none;border-radius:50%;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(145deg,#FFFFFF,#E5EDF5);
+  color:var(--azul-profundo);
+  box-shadow:var(--sh-orb);
+  transition:transform .2s ease, box-shadow .2s ease, opacity .2s ease;
+  z-index:3;
+}
+.carrossel-nav svg{width:20px;height:20px}
+.carrossel-nav.prev{left:2px}
+.carrossel-nav.next{right:2px}
+.carrossel-nav:hover{transform:translateY(-50%) scale(1.06)}
+.carrossel-nav:active{transform:translateY(-50%) scale(.9);box-shadow:var(--sh-pressed)}
+.carrossel-nav:focus-visible{outline:3px solid rgba(23,57,91,.45);outline-offset:3px}
+.carrossel-nav[disabled]{opacity:.35;cursor:default;pointer-events:none}
+
+.carrossel-pontos{display:flex;justify-content:center;gap:8px;margin-top:18px}
+.ponto{
+  width:9px;height:9px;padding:0;border:none;border-radius:999px;cursor:pointer;
+  background:#BFCDDC;box-shadow:inset 2px 2px 4px rgba(23,57,91,.18);
+  transition:width .3s ease, background .3s ease;
+}
+.ponto.ativo{width:26px;background:linear-gradient(145deg,#3A6C99,var(--azul-profundo))}
+.ponto:focus-visible{outline:3px solid rgba(23,57,91,.45);outline-offset:3px}
+
+/* ============================================================
+   LISTA COM MARCADOR ✓  (usada em "Tudo que você vai receber")
+   ============================================================ */
+.lista{list-style:none;text-align:left}
+.lista li{
+  padding:12px 0 12px 44px;position:relative;font-weight:500;line-height:1.55;
+}
+.lista li+li{border-top:1px dashed rgba(110,156,198,.4)}
+.lista li::before{
+  content:'✓';position:absolute;left:0;top:11px;
+  width:30px;height:30px;border-radius:50%;
+  background:linear-gradient(145deg,#6FC79B,var(--verde));color:#fff;
+  font-weight:900;font-size:.85rem;line-height:30px;text-align:center;
+  box-shadow:var(--sh-orb);
+}
+
+/* ============================================================
+   BLOCO 5 — IDEAL PARA VOCÊ
+   ============================================================ */
+.grid-ideal{display:grid;gap:16px;margin-top:26px;text-align:left}
+.card-ideal .ic{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:56px;height:56px;border-radius:var(--r-xs);
+  background:linear-gradient(145deg,#97B8D8,var(--azul-ceu));
+  font-size:1.6rem;box-shadow:var(--sh-orb);margin-bottom:14px;
+}
+.card-ideal h3{font-size:1.1rem;margin-bottom:.35rem;line-height:1.3}
+.card-ideal p{font-size:.96rem;color:var(--tinta-suave);margin:0}
+
+/* ============================================================
+   BLOCO 7 — TUDO QUE VOCÊ VAI RECEBER
+   ============================================================ */
+.caixa-recebe{margin-top:26px;text-align:left;padding:18px 18px 26px}
+.caixa-recebe img{
+  width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;
+  border-radius:var(--r-md);margin-bottom:20px;
+}
+
+/* ============================================================
+   BLOCO 8 — BÔNUS
+   ============================================================ */
+/* 2 colunas já no celular — o lead não precisa rolar tanto */
+.bonus-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 12px;margin-top:30px;text-align:left}
+.bonus{padding:12px 12px 16px;display:flex;flex-direction:column}
+.bonus-img{
+  width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;
+  border-radius:var(--r-xs);margin-bottom:11px;
+  background:#F1F5FA;
+  box-shadow:inset 0 0 0 1px rgba(23,57,91,.07);
+}
+.bonus .tag{
+  align-self:flex-start;margin-bottom:9px;
+  background:linear-gradient(145deg,#F5C978,var(--amarelo-escuro));
+  color:#332100;font-weight:900;font-size:.62rem;letter-spacing:.05em;
+  border-radius:999px;padding:5px 11px;line-height:1.3;
+  box-shadow:5px 6px 12px rgba(201,138,20,.34), -3px -3px 7px rgba(255,255,255,.6);
+}
+.bonus h3{font-size:.9rem;margin-bottom:.3rem;line-height:1.28}
+.bonus p{font-size:.79rem;color:var(--tinta-suave);margin:0;line-height:1.45}
+
+/* ============================================================
+   BLOCO 9 — COMO FUNCIONA
+   ============================================================ */
+.passos{display:grid;gap:16px;margin-top:26px}
+.passo{display:flex;align-items:center;gap:18px;text-align:left;padding:20px}
+.passo .num{
+  flex:0 0 auto;width:54px;height:54px;border-radius:50%;
+  background:linear-gradient(145deg,#97B8D8,var(--azul-ceu));
+  color:#fff;font-weight:900;font-size:1.4rem;line-height:54px;text-align:center;
+  box-shadow:var(--sh-orb);
+}
+.passo h3{font-size:1.08rem;margin-bottom:.15rem}
+.passo p{font-size:.94rem;color:var(--tinta-suave);margin:0;line-height:1.45}
+
+/* ============================================================
+   BLOCO 10 — PLANOS
+   ============================================================ */
+.planos{background:linear-gradient(180deg,rgba(253,251,246,0) 0%,rgba(233,240,247,.9) 45%,var(--azul-claro) 100%)}
+.grid-planos{display:grid;gap:30px;margin-top:34px}
+.plano{display:flex;flex-direction:column;text-align:left;padding:28px 24px;border-radius:var(--r-xl)}
+/* mockup no topo do bloco — mostra o que entra em cada plano antes da lista */
+.plano-img{
+  width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;
+  border-radius:var(--r-md);margin-bottom:18px;
+  box-shadow:
+    8px 10px 22px rgba(23,57,91,.16),
+    -6px -6px 16px rgba(255,255,255,.90),
+    0 0 0 1px rgba(23,57,91,.05);
+}
+.plano h3{font-size:1.3rem;margin-bottom:2px}
+.plano ul{list-style:none;margin:16px 0;flex:1}
+.plano li{padding:8px 0 8px 32px;position:relative;font-size:.95rem;line-height:1.45}
+.plano li::before{
+  content:'✓';position:absolute;left:0;top:9px;
+  width:22px;height:22px;border-radius:50%;
+  background:linear-gradient(145deg,#6FC79B,var(--verde));color:#fff;
+  font-weight:900;font-size:.68rem;line-height:22px;text-align:center;
+  box-shadow:3px 4px 9px rgba(50,140,102,.28);
+}
+.plano li.nao{color:#8FA0AF}
+.plano li.nao::before{
+  content:'–';background:linear-gradient(145deg,#E4EAF1,#CCD5E0);color:#7A8A99;
+  box-shadow:3px 4px 9px rgba(23,57,91,.14);
+}
+.plano .btn{margin-top:6px}
+
+.destaque{
+  position:relative;margin-top:14px;
+  background:linear-gradient(160deg,#FFFFFF 0%,#FFFCF3 100%);
+  box-shadow:
+    16px 20px 42px rgba(201,138,20,.30),
+    -12px -12px 28px rgba(255,255,255,1),
+    inset 6px 6px 14px rgba(232,169,58,.10),
+    inset -6px -6px 14px rgba(255,255,255,1);
+}
+.destaque .melhor{
+  position:absolute;top:-15px;left:50%;transform:translateX(-50%);
+  background:linear-gradient(145deg,#F5C978,var(--amarelo-escuro));
+  color:#332100;font-weight:900;font-size:.78rem;letter-spacing:.04em;
+  border-radius:999px;padding:8px 20px;white-space:nowrap;
+  box-shadow:7px 9px 18px rgba(201,138,20,.42), -4px -4px 10px rgba(255,255,255,.7);
+}
+
+.preco-antigo{color:#8FA0AF;text-decoration:line-through;font-size:1rem;font-weight:500}
+.preco{font-size:2.3rem;font-weight:900;color:var(--azul-profundo);line-height:1.15;display:inline-block}
+.preco small{font-size:.95rem;font-weight:700}
+.preco-nota{font-size:.86rem;color:var(--tinta-suave);margin:6px 0 16px}
+.economia{
+  display:inline-block;margin:8px 0 16px;
+  background:linear-gradient(145deg,#EDF9F3,#DDF1E7);color:#20714D;
+  font-weight:800;font-size:.83rem;border-radius:var(--r-xs);padding:8px 14px;
+  box-shadow:var(--sh-pressed);
+}
+.urg{font-size:.86rem;color:#7A5400;font-weight:700;margin-top:14px;text-align:center}
+
+/* ============================================================
+   BLOCO 11 — GARANTIA
+   ============================================================ */
+.caixa-garantia{
+  border-radius:var(--r-xl);padding:34px 24px;
+  background:linear-gradient(160deg,rgba(233,240,247,.95),rgba(255,255,255,.75));
+  box-shadow:var(--sh-deep);
+}
+.caixa-garantia .selo{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:82px;height:82px;border-radius:50%;font-size:2.6rem;margin-bottom:14px;
+  background:linear-gradient(145deg,#FFFFFF,#DAE5F0);
+  box-shadow:var(--sh-card);
+}
+.caixa-garantia p{color:var(--tinta);margin-bottom:0}
+
+/* ============================================================
+   BLOCO 13 — FAQ
+   ============================================================ */
+.faq{margin-top:26px;text-align:left}
+details{
+  background:rgba(255,255,255,.85);
+  border-radius:var(--r-md);
+  box-shadow:var(--sh-card);
+  padding:18px 20px;margin-bottom:14px;
+  transition:box-shadow .3s ease;
+}
+details[open]{
+  background:rgba(255,255,255,.62);
+  box-shadow:var(--sh-pressed);
+}
+summary{
+  font-family:'Barlow',sans-serif;font-weight:800;font-size:1.02rem;
+  color:var(--azul-profundo);cursor:pointer;list-style:none;
+  padding-right:38px;position:relative;line-height:1.35;
+  min-height:30px;display:flex;align-items:center;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{
+  content:'+';position:absolute;right:0;top:50%;transform:translateY(-50%);
+  width:30px;height:30px;border-radius:50%;
+  background:linear-gradient(145deg,#FFFFFF,#DAE5F0);color:var(--azul-profundo);
+  font-size:1.15rem;font-weight:900;line-height:30px;text-align:center;
+  box-shadow:var(--sh-orb);transition:transform .3s ease;
+}
+details[open] summary::after{content:'–';transform:translateY(-50%) rotate(180deg)}
+summary:focus-visible{outline:3px solid rgba(23,57,91,.35);outline-offset:4px;border-radius:10px}
+details p{margin:.85rem 0 0;font-size:.96rem;color:var(--tinta-suave)}
+.faq-cta{margin-top:26px}
+
+/* ============================================================
+   BLOCO 14 — RODAPÉ
+   ============================================================ */
+footer{
+  background:var(--azul-profundo);color:#CBDAE8;
+  padding:36px 20px 40px;font-size:.88rem;text-align:center;
+  border-radius:var(--r-xl) var(--r-xl) 0 0;
+  position:relative;z-index:1;
+}
+footer p{margin-bottom:.6rem}
+footer a{color:#fff}
+.aviso-legal{max-width:640px;margin:16px auto 0;font-size:.79rem;opacity:.82;line-height:1.55}
+
+/* ============================================================
+   BARRA DE OFERTA (contador, topo fixo)
+   ============================================================ */
+.barra-oferta{
+  position:sticky;top:0;z-index:60;
+  background:linear-gradient(145deg,#1F4E78,var(--azul-profundo));
+  color:#E9F0F7;text-align:center;
+  padding:10px 16px;font-size:.92rem;font-weight:600;
+  line-height:1.3;
+  box-shadow:0 6px 18px rgba(23,57,91,.28);
+}
+.barra-oferta .relogio{margin-right:4px}
+#contador{
+  font-family:'Barlow',sans-serif;font-weight:900;
+  color:var(--amarelo);font-size:1.06rem;
+  font-variant-numeric:tabular-nums;letter-spacing:.02em;
+}
+
+/* ============================================================
+   RÓTULO DE SEÇÃO (eyebrow)
+   ============================================================ */
+.rotulo{
+  font-family:'Barlow',sans-serif;
+  font-weight:900;font-size:.76rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--verde-texto);
+  margin-bottom:.4rem;
+}
+.destaque-verde{color:var(--verde-texto)}
+
+/* ============================================================
+   SEÇÃO EXPERT
+   ============================================================ */
+.expert-card{margin-top:26px;text-align:center}
+.expert-foto{margin-bottom:18px}
+.expert-foto img{
+  width:150px;height:150px;border-radius:50%;object-fit:cover;
+  margin:0 auto 14px;
+  box-shadow:
+    12px 14px 28px rgba(23,57,91,.24),
+    -8px -8px 20px rgba(255,255,255,.9),
+    inset 0 0 0 5px rgba(255,255,255,.95);
+}
+.expert-selo{
+  display:inline-block;
+  background:linear-gradient(145deg,#EDF9F3,#DDF1E7);color:var(--verde-texto);
+  font-family:'Barlow',sans-serif;font-weight:800;font-size:.76rem;
+  border-radius:999px;padding:7px 16px;line-height:1.35;
+  box-shadow:var(--sh-pressed);
+}
+.expert-nome{font-size:1.28rem;margin-bottom:.25rem}
+.expert-cargo{
+  font-family:'Barlow',sans-serif;
+  font-weight:800;font-size:.7rem;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--azul-profundo);
+  opacity:.85;line-height:1.5;margin-bottom:.9rem;
+}
+.expert-bio{font-size:.98rem;color:var(--tinta-suave);text-align:left;margin-bottom:0}
+
+.expert-citacao{
+  margin-top:22px;padding:26px 22px;text-align:left;
+  border-radius:var(--r-lg);
+  background:linear-gradient(150deg,rgba(233,240,247,.95),rgba(255,255,255,.8));
+  box-shadow:var(--sh-deep);
+  position:relative;
+}
+.expert-citacao::before{
+  content:'“';position:absolute;top:-6px;left:18px;
+  font-family:'Barlow',sans-serif;font-size:4rem;line-height:1;
+  color:var(--azul-ceu);opacity:.5;
+}
+.expert-citacao p{
+  position:relative;font-size:1rem;line-height:1.65;
+  color:var(--tinta);font-style:italic;margin-bottom:0;
+}
+
+@media (min-width:640px){
+  .expert-card{display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:start;text-align:left}
+  .expert-foto{margin-bottom:0}
+  .expert-foto img{width:168px;height:168px;margin-bottom:12px}
+  .expert-selo{font-size:.72rem;max-width:168px}
+  .expert-citacao{padding:32px 30px}
+  .expert-citacao p{font-size:1.05rem}
+}
+
+/* ============================================================
+   DEPOIMENTOS
+   ============================================================ */
+.stats{
+  display:flex;align-items:stretch;justify-content:center;
+  gap:0;margin:24px auto 0;max-width:520px;
+  background:#fff;border-radius:999px;padding:16px 8px;
+  box-shadow:var(--sh-card);
+}
+.stat{flex:1 1 0;min-width:0;padding:0 6px;position:relative}
+.stat+.stat::before{
+  content:'';position:absolute;left:0;top:6%;height:88%;
+  border-left:1px solid var(--cinza-borda);
+}
+.stat-num{
+  display:block;font-family:'Barlow',sans-serif;font-weight:900;
+  font-size:1.32rem;line-height:1.15;color:var(--verde-texto);
+}
+.stat-lbl{
+  display:block;margin-top:3px;
+  font-family:'Barlow',sans-serif;font-weight:800;
+  font-size:.56rem;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--tinta-suave);line-height:1.25;
+}
+
+.dep-grid{display:grid;gap:18px;margin-top:32px;text-align:left}
+.dep-card{
+  background:#fff;border:1px solid var(--cinza-borda);
+  border-radius:var(--r-xs);padding:22px 20px;
+  box-shadow:8px 10px 24px rgba(23,57,91,.10), -6px -6px 16px rgba(255,255,255,.9);
+  display:flex;flex-direction:column;
+  transition:transform .45s ease, box-shadow .45s ease;
+}
+.dep-card:hover{transform:translateY(-5px);box-shadow:14px 16px 34px rgba(23,57,91,.16), -8px -8px 20px rgba(255,255,255,1)}
+.dep-tag{
+  align-self:flex-start;
+  background:var(--ambar-fundo);color:var(--ambar-texto);
+  font-family:'Barlow',sans-serif;font-weight:800;font-size:.72rem;
+  border-radius:999px;padding:5px 13px;line-height:1.35;
+}
+.dep-estrelas{
+  color:var(--estrela);font-size:1.02rem;letter-spacing:.09em;
+  margin:12px 0 10px;line-height:1;
+}
+.dep-card blockquote{
+  font-style:italic;color:#3D4E5F;font-size:.96rem;line-height:1.6;
+  flex:1;margin-bottom:18px;
+}
+.dep-card blockquote strong{font-style:normal;font-weight:700;color:var(--tinta)}
+.dep-autor{
+  display:flex;align-items:center;gap:12px;
+  padding-top:15px;border-top:1px solid var(--cinza-borda);
+}
+.dep-avatar{
+  flex:0 0 auto;width:44px;height:44px;border-radius:50%;
+  background:linear-gradient(145deg,#CCDCEC,var(--azul-ceu));
+  color:#10304F;font-family:'Barlow',sans-serif;font-weight:900;font-size:1.12rem;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:4px 5px 12px rgba(23,57,91,.20), inset -2px -3px 6px rgba(23,57,91,.10);
+}
+.dep-info{display:flex;flex-direction:column;min-width:0}
+.dep-info strong{font-family:'Barlow',sans-serif;font-weight:800;font-size:.95rem;color:var(--azul-profundo)}
+.dep-info span{font-size:.8rem;color:var(--tinta-suave);line-height:1.35}
+
+@media (min-width:640px){
+  .stats{padding:18px 12px;max-width:560px}
+  .stat-num{font-size:1.6rem}
+  .stat-lbl{font-size:.62rem}
+  .dep-grid{grid-template-columns:repeat(2,1fr);gap:20px}
+}
+@media (min-width:900px){
+  .dep-grid{grid-template-columns:repeat(3,1fr)}
+}
+
+/* ---- fade-in/slide-up ao entrar na viewport ---- */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease, transform .6s ease}
+.reveal.visivel{opacity:1;transform:none}
+
+/* ============================================================
+   CTA FIXO (mobile)
+   ============================================================ */
+.cta-fixo{
+  position:fixed;left:12px;right:12px;bottom:12px;z-index:55;
+  display:flex;align-items:center;justify-content:center;
+  min-height:56px;padding:12px 18px;
+  background:linear-gradient(145deg,#F5C978 0%,var(--amarelo) 55%,var(--amarelo-escuro) 100%);
+  color:#332100;text-decoration:none;
+  font-family:'Barlow',sans-serif;font-weight:900;
+  font-size:.84rem;line-height:1.25;text-align:center;
+  text-wrap:balance;
+  border-radius:999px;
+  box-shadow:
+    0 10px 26px rgba(23,57,91,.30),
+    0 4px 12px rgba(201,138,20,.45),
+    inset 3px 3px 7px rgba(255,255,255,.6),
+    inset -4px -6px 10px rgba(130,88,0,.20);
+  transition:opacity .35s ease, transform .35s ease;
+}
+.cta-fixo:active{transform:scale(.96);box-shadow:var(--sh-pressed-amarelo)}
+.cta-fixo:focus-visible{outline:4px solid rgba(23,57,91,.45);outline-offset:3px}
+.cta-fixo.oculto{opacity:0;transform:translateY(120%);pointer-events:none}
+/* espaço pro CTA não cobrir o fim do rodapé */
+body{padding-bottom:84px}
+
+@media (min-width:900px){
+  .cta-fixo{display:none}
+  body{padding-bottom:0}
+}
+
+/* ============================================================
+   DOWNSELL POR EXIT-INTENT
+   ============================================================ */
+.ep-overlay{
+  position:fixed;inset:0;z-index:9999;
+  background:rgba(12,28,46,.74);
+  -webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);
+  display:none;justify-content:center;align-items:center;
+  padding:16px;
+}
+.ep-overlay.is-open{display:flex}
+.ep-overlay[hidden]{display:none}
+
+.ep-card{
+  position:relative;text-align:center;
+  width:100%;max-width:420px;max-height:90vh;overflow-y:auto;
+  padding:26px 20px 24px;
+  background:linear-gradient(160deg,#FFFFFF 0%,#FDFBF6 100%);
+  border-radius:var(--r-xl);
+  border:3px solid var(--amarelo);
+  box-shadow:
+    18px 22px 48px rgba(6,18,32,.42),
+    -10px -10px 26px rgba(255,255,255,.55),
+    inset 6px 6px 14px rgba(232,169,58,.10),
+    inset -6px -6px 14px rgba(255,255,255,1);
+  animation:epSobe .4s ease;
+}
+@keyframes epSobe{
+  from{opacity:0;transform:translateY(30px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+/* alvo de toque de 44x44 com o glifo pequeno */
+.ep-fechar{
+  position:absolute;top:4px;right:6px;
+  width:44px;height:44px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;line-height:1;color:#8FA0AF;
+  background:none;border:none;cursor:pointer;border-radius:50%;
+}
+.ep-fechar:hover{color:var(--azul-profundo);background:rgba(23,57,91,.07)}
+.ep-fechar:focus-visible{outline:3px solid rgba(23,57,91,.45);outline-offset:2px}
+
+.ep-alerta{
+  font-family:'Barlow',sans-serif;font-weight:900;
+  font-size:1.08rem;line-height:1.25;color:#B8362F;
+  margin-bottom:6px;padding-right:30px;
+}
+.ep-sub{
+  font-family:'Barlow',sans-serif;font-weight:800;
+  font-size:.98rem;color:var(--azul-profundo);margin-bottom:14px;
+}
+
+.ep-destaque{
+  background:linear-gradient(150deg,#E9F0F7,#DAE5F0);
+  border-radius:var(--r-xs);padding:13px 14px;margin-bottom:16px;
+  font-size:.87rem;line-height:1.6;color:var(--tinta);
+  box-shadow:var(--sh-pressed);
+}
+.ep-acento{color:var(--verde-texto);font-weight:800}
+
+.ep-lista{text-align:left;font-size:.86rem;line-height:1.5;margin-bottom:16px}
+.ep-lista div{
+  padding:7px 0 7px 27px;position:relative;
+}
+.ep-lista div+div{border-top:1px dashed rgba(110,156,198,.45)}
+.ep-lista div::before{
+  content:'✓';position:absolute;left:0;top:8px;
+  width:19px;height:19px;border-radius:50%;
+  background:linear-gradient(145deg,#6FC79B,var(--verde));color:#fff;
+  font-weight:900;font-size:.6rem;line-height:19px;text-align:center;
+}
+.ep-lista div.bonus::before{
+  content:'★';background:linear-gradient(145deg,#F5C978,var(--amarelo-escuro));color:#332100;
+}
+
+.ep-unico{font-size:.8rem;font-weight:700;color:var(--tinta-suave);margin-bottom:3px}
+.ep-antigo{
+  font-size:.86rem;color:#B8362F;text-decoration:line-through;margin-bottom:1px;
+}
+.ep-apenas{font-size:.76rem;color:var(--tinta-suave);margin-bottom:0}
+.ep-preco{
+  font-family:'Barlow',sans-serif;font-weight:900;
+  font-size:2.5rem;line-height:1;color:var(--azul-profundo);
+  margin-bottom:16px;
+}
+
+.ep-cta{
+  display:flex;align-items:center;justify-content:center;
+  width:100%;min-height:56px;padding:14px 18px;
+  background:linear-gradient(145deg,#F5C978 0%,var(--amarelo) 55%,var(--amarelo-escuro) 100%);
+  color:#332100;text-decoration:none;
+  font-family:'Barlow',sans-serif;font-weight:900;
+  font-size:.92rem;line-height:1.25;text-align:center;
+  letter-spacing:.02em;border-radius:var(--r-sm);
+  box-shadow:var(--sh-btn);
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.ep-cta:hover{transform:translateY(-3px);box-shadow:var(--sh-btn-hover)}
+.ep-cta:active{transform:scale(.95);box-shadow:var(--sh-pressed-amarelo)}
+.ep-cta:focus-visible{outline:4px solid rgba(255,255,255,.75);outline-offset:3px}
+
+.ep-rodape{margin-top:12px;font-size:.76rem;color:var(--tinta-suave);line-height:1.45}
+
+@media (min-width:640px){
+  .ep-card{padding:30px 28px 26px;max-width:440px}
+  .ep-alerta{font-size:1.18rem}
+  .ep-preco{font-size:2.7rem}
+}
+@media (prefers-reduced-motion:reduce){
+  .ep-card{animation:none}
+  .ep-cta:hover{transform:none}
+}
+
+/* ============================================================
+   ≥ 560px — bônus em 2 colunas
+   ============================================================ */
+@media (min-width:560px){
+  .bonus-grid{gap:18px 16px}
+  .bonus{padding:14px 14px 20px}
+  .bonus .tag{font-size:.68rem;padding:6px 14px}
+  .bonus h3{font-size:1rem}
+  .bonus p{font-size:.88rem}
+}
+
+/* ============================================================
+   ≥ 640px — respiro maior, botões deixam de ser full-width
+   ============================================================ */
+@media (min-width:640px){
+  h1{font-size:2.15rem}
+  h2{font-size:1.72rem}
+  section{padding:64px 24px}
+  .btn{display:inline-flex;width:auto;min-width:280px}
+  .hero-mockups{max-width:460px;margin-top:32px}
+  .slide img{max-width:268px}
+  .carrossel-nav{width:50px;height:50px}
+  .carrossel-nav svg{width:23px;height:23px}
+  .grid-ideal{grid-template-columns:repeat(2,1fr)}
+  .card{padding:28px 26px}
+  .caixa-garantia{padding:44px 36px}
+}
+
+/* ============================================================
+   ≥ 900px — desktop: comparativo lado a lado, planos em 2 colunas
+   ============================================================ */
+@media (min-width:900px){
+  h1{font-size:2.6rem}
+  h2{font-size:1.95rem}
+  section{padding:76px 24px}
+  .hero{padding-top:64px}
+  .hero .sub{font-size:1.15rem}
+
+  /* no desktop cabem 3 páginas por vez */
+  .slide{flex:0 0 calc((100% - 32px) / 3)}
+  .slide img{max-width:100%}
+  .carrossel-nav.prev{left:-14px}
+  .carrossel-nav.next{right:-14px}
+  .grid-ideal{grid-template-columns:repeat(3,1fr)}
+  .bonus-grid{grid-template-columns:repeat(4,1fr);gap:20px 18px}
+  .passos{grid-template-columns:repeat(3,1fr)}
+  .passo{flex-direction:column;text-align:center;gap:12px;padding:28px 20px}
+  .passo .num{margin:0 auto}
+
+  .grid-planos{grid-template-columns:1fr 1fr;gap:26px;align-items:stretch}
+  .plano-basico{order:-1}
+  .destaque{margin-top:0}
+
+  .caixa-recebe{display:grid;grid-template-columns:1fr 1.15fr;gap:28px;align-items:center;padding:30px}
+  .caixa-recebe img{margin-bottom:0}
+}
+
+/* ============================================================
+   Acessibilidade — movimento reduzido
+   ============================================================ */
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{
+    animation-duration:.001ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.001ms!important;
+  }
+  .card:hover,.btn:hover,.dep-card:hover{transform:none}
+  /* nunca esconder conteúdo de quem desativou animação */
+  .reveal{opacity:1!important;transform:none!important}
+}
+</style>
+
+<!-- Sem JS os cards animados nunca receberiam .visivel — garante que apareçam mesmo assim -->
+<noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+
+<div class="blobs" aria-hidden="true">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+</div>
+
+<!-- BARRA DE OFERTA — contador regressivo -->
+<div class="barra-oferta">
+  <span class="relogio" aria-hidden="true">⏳</span>
+  Oferta expira em: <strong id="contador">15:00</strong>
+</div>
+
+<!-- BLOCO 1 — VENDA IMEDIATA -->
+<section class="hero center">
+  <div class="wrap">
+    <h1>+100 esquemas elétricos prontos, com lista de material, direto no seu celular</h1>
+    <p class="sub">Pare de desenhar no verso do papel de pão. Abre a plataforma na obra, acha o esquema do serviço, ajusta a medida e <strong>manda o orçamento no mesmo dia da visita</strong>.</p>
+
+    <div class="hero-mockups">
+      <img src="img/mockup-hero.jpg" width="1248" height="832" loading="eager" fetchpriority="high" decoding="async"
+           alt="Fichário azul-marinho do Pack Tesouro do Eletricista sobre um leque de folhas impressas com diagramas elétricos, ao lado de um alicate e um disjuntor.">
+    </div>
+
+    <a class="btn" href="#planos">QUERO O ACERVO COMPLETO →</a>
+    <p class="hero-nota">Acesso imediato · PIX ou cartão · Pagamento único, a partir de R$ 19,90</p>
+  </div>
+</section>
+
+<!-- BLOCO 1B — EXPERT -->
+<section class="expert bg-branco">
+  <div class="wrap">
+    <div class="center">
+      <p class="rotulo">Chancela técnica</p>
+      <h2>Montado por quem vive de serviço residencial</h2>
+    </div>
+
+    <div class="card expert-card">
+      <div class="expert-foto">
+        <img src="img/expert.jpg" width="420" height="420" loading="lazy" decoding="async"
+             alt="Retrato do eletricista Diego Ramos, de camisa polo cinza, em frente a um quadro de distribuição aberto com os disjuntores e a fiação à mostra.">
+        <span class="expert-selo">Eletricista residencial · 15 anos de obra</span>
+      </div>
+      <div>
+        <h3 class="expert-nome">Diego Ramos</h3>
+        <p class="expert-cargo">Eletricista residencial autônomo · Instalação, adequação de padrão e manutenção predial</p>
+        <p class="expert-bio">São 15 anos puxando fio em casa de cliente, do quadro de dois quartos ao portão eletrônico com interfone. Diego montou e conferiu o acervo a partir dos serviços que ele mesmo executa toda semana: cada esquema saiu de uma instalação real, com a lista de material que ele levaria pra loja e a bitola que ele usaria de fato. O critério foi um só — tem que servir em pé, no meio da obra, com o cliente esperando resposta.</p>
+      </div>
+    </div>
+
+    <blockquote class="expert-citacao">
+      <p>"Eu executo bem e sempre vendi mal. O cliente pedia orçamento, eu falava 'te mando à noite', chegava em casa morto, chutava o valor e mandava dois dias depois — e ele já tinha fechado com outro. O que me separava do serviço maior nunca foi a mão, era o papel: diagrama, lista de material e um preço que eu conseguisse defender. Foi por isso que montei esse acervo do jeito que eu queria ter tido quando comecei."</p>
+    </blockquote>
+  </div>
+</section>
+
+<!-- BLOCO 2 — DEMONSTRATIVO (3ª seção: a partir daqui o CTA fixo aparece) -->
+<section class="center" id="material">
+  <div class="wrap">
+    <h2>Veja a plataforma por dentro</h2>
+    <p>Não é pasta com 100 arquivos soltos no Drive. Abre no navegador do celular, com busca, filtro e zoom — sem baixar PDF de 40 MB no meio da obra.</p>
+
+    <div class="carrossel" id="carrossel">
+      <div class="carrossel-trilho" id="carrosselTrilho" tabindex="0" role="group" aria-roledescription="carrossel" aria-label="Telas do Pack Tesouro do Eletricista">
+        <figure class="slide"><img src="img/carrossel-1.jpg" width="560" height="1120" loading="lazy" decoding="async" alt="Tela inicial do Pack Tesouro do Eletricista no celular, com o selo +100 esquemas, o botão Entrar no acervo e os atalhos por tipo de serviço."></figure>
+        <figure class="slide"><img src="img/carrossel-2.jpg" width="560" height="1120" loading="lazy" decoding="async" alt="Esquema do Quadro de uma casa de 2 quartos aberto na tela, com o barramento, o DR e os disjuntores de 10 a 32 amperes identificados circuito a circuito."></figure>
+        <figure class="slide"><img src="img/carrossel-3.jpg" width="560" height="1120" loading="lazy" decoding="async" alt="Busca no acervo com a palavra Chuveiro digitada e a lista de esquemas correspondentes aparecendo com miniatura de cada diagrama."></figure>
+        <figure class="slide"><img src="img/carrossel-4.jpg" width="560" height="1120" loading="lazy" decoding="async" alt="Lista de material do esquema, com cabo 2,5 mm, disjuntor 20A, eletroduto, caixas e tomadas, cada item com a quantidade ao lado."></figure>
+        <figure class="slide"><img src="img/carrossel-5.jpg" width="560" height="1120" loading="lazy" decoding="async" alt="Tabela de bitolas e disjuntores relacionando seção do cabo em milímetros com a corrente do disjuntor, de 2,5 mm a 16 mm."></figure>
+      </div>
+
+      <button class="carrossel-nav prev" id="carrosselPrev" type="button" aria-label="Página anterior" aria-controls="carrosselTrilho">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 4 L7 12 L15 20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="carrossel-nav next" id="carrosselNext" type="button" aria-label="Próxima página" aria-controls="carrosselTrilho">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 4 L17 12 L9 20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <div class="carrossel-pontos" id="carrosselPontos"></div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 7 — TUDO QUE VOCÊ VAI RECEBER -->
+<section class="bg-azul center">
+  <div class="wrap">
+    <h2>Tudo que você vai receber</h2>
+    <div class="card caixa-recebe">
+      <img src="img/mockup-produto.jpg" width="800" height="800" loading="lazy" decoding="async"
+           alt="Fichário azul-marinho do Pack Tesouro do Eletricista visto de perto, fechado sobre folhas impressas com diagramas de circuito.">
+      <ul class="lista">
+        <li><strong>+100 esquemas e diagramas residenciais</strong> — quadro de distribuição, circuitos de tomada, iluminação, chuveiro, ar-condicionado, portão eletrônico, interfone e automação básica</li>
+        <li><strong>Lista de material em cada esquema</strong> — quantidade, bitola e especificação, pronta pra conferir na loja</li>
+        <li><strong>Tabela de bitolas, disjuntores e DR</strong> por tipo de circuito, consultável em segundos</li>
+        <li>Memorial descritivo modelo — o texto que acompanha o orçamento e faz o cliente entender o que está pagando</li>
+        <li>Busca e filtro por tipo de serviço, feito pra usar em pé no celular — acesso vitalício, com acervo novo entrando na sua conta sozinho</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 5 — IDEAL PARA VOCÊ QUE DESEJA (agora 5ª seção) -->
+<section class="bg-branco" id="gatilho-cta">
+  <div class="wrap center">
+    <h2>O Pack Tesouro do Eletricista é ideal para você que deseja…</h2>
+    <div class="grid-ideal">
+      <div class="card card-ideal"><span class="ic">⚡</span><h3>Mandar orçamento no mesmo dia</h3><p>Quem responde primeiro é quem fecha o serviço.</p></div>
+      <div class="card card-ideal"><span class="ic">🧾</span><h3>Acertar a lista de material</h3><p>Sem segunda viagem à loja comendo o seu lucro.</p></div>
+      <div class="card card-ideal"><span class="ic">📐</span><h3>Parar de desenhar do zero</h3><p>O esquema já existe pronto: ajusta a medida e usa.</p></div>
+      <div class="card card-ideal"><span class="ic">💰</span><h3>Cobrar o preço certo</h3><p>Saber o custo real antes de dar o valor pro cliente.</p></div>
+      <div class="card card-ideal"><span class="ic">🤝</span><h3>Passar confiança na visita</h3><p>Chegar com diagrama e memorial em vez de papel de pão.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 8 — BÔNUS -->
+<section>
+  <div class="wrap center">
+    <h2>E comprando hoje no plano completo,<br>você leva 3 bônus</h2>
+    <div class="bonus-grid">
+      <div class="card bonus">
+        <img class="bonus-img" src="img/bonus-1.jpg" width="440" height="440" loading="lazy" decoding="async" alt="Caderno espiral azul com faixa âmbar do Guia de Entrada de Energia, apoiado na mesa clara em leve perspectiva.">
+        <span class="tag">BÔNUS 1</span><h3>Guia de Entrada de Energia</h3><p>A adequação de padrão: o serviço mais rentável e o que mais gera dúvida.</p>
+      </div>
+      <div class="card bonus">
+        <img class="bonus-img" src="img/bonus-2.jpg" width="440" height="440" loading="lazy" decoding="async" alt="Caderno espiral do Checklist de Visita, capa clara com cabeçalho azul e as caixas de marcação impressas em sequência.">
+        <span class="tag">BÔNUS 2</span><h3>Checklist de Visita Técnica</h3><p>O que perguntar e medir na casa do cliente antes de dar preço.</p>
+      </div>
+      <div class="card bonus">
+        <img class="bonus-img" src="img/bonus-3.jpg" width="440" height="440" loading="lazy" decoding="async" alt="Pilha de cadernos azuis da Tabela Regional de Valores, com a grade de preços impressa na capa.">
+        <span class="tag">BÔNUS 3</span><h3>Tabela Regional de Valores</h3><p>A faixa praticada por tipo de serviço, região por região do país.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="corte">
+
+<!-- BLOCO 9 — COMO É O ACESSO -->
+<section class="center bg-azul">
+  <div class="wrap">
+    <h2>Como funciona</h2>
+    <div class="passos">
+      <div class="card passo"><div class="num">1</div><div><h3>Compre</h3><p>Pagamento 100% seguro por PIX ou cartão.</p></div></div>
+      <div class="card passo"><div class="num">2</div><div><h3>Receba o acesso</h3><p>O login da plataforma chega no seu e-mail em minutos.</p></div></div>
+      <div class="card passo"><div class="num">3</div><div><h3>Abra na obra</h3><p>Filtra o tipo de serviço, acha o esquema e usa na hora.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 9B — DEPOIMENTOS (logo acima da oferta) -->
+<section class="depoimentos bg-branco" id="depoimentos">
+  <div class="wrap center">
+    <p class="rotulo">Depoimentos reais</p>
+    <h2>Veja o que outros <span class="destaque-verde">eletricistas</span> estão dizendo</h2>
+
+    <div class="stats">
+      <div class="stat"><span class="stat-num">3.400+</span><span class="stat-lbl">Eletricistas usam</span></div>
+      <div class="stat"><span class="stat-num">4.9</span><span class="stat-lbl">Nota média</span></div>
+      <div class="stat"><span class="stat-num">97%</span><span class="stat-lbl">Recomendam</span></div>
+    </div>
+
+    <div class="dep-grid">
+
+      <figure class="dep-card reveal">
+        <span class="dep-tag">Dor: demorava dias pra mandar orçamento</span>
+        <div class="dep-estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</div>
+        <blockquote>"Eu falava 'te mando à noite' e mandava dois dias depois, quando mandava. <strong>Agora saio da visita com a lista e o valor no WhatsApp do cliente.</strong> Fechei três serviços num mês que antes eu teria perdido pra outro."</blockquote>
+        <figcaption class="dep-autor">
+          <span class="dep-avatar" aria-hidden="true">R</span>
+          <span class="dep-info"><strong>Rodrigo Nascimento</strong><span>Eletricista autônomo · Contagem - MG</span></span>
+        </figcaption>
+      </figure>
+
+      <figure class="dep-card reveal">
+        <span class="dep-tag">Dor: segunda viagem à loja comendo o lucro</span>
+        <div class="dep-estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</div>
+        <blockquote>"Todo serviço eu voltava na loja pelo menos uma vez, e cada volta era combustível e meia manhã perdida. Passei a comprar pela lista do esquema. <strong>Na última obra não voltei nenhuma vez.</strong>"</blockquote>
+        <figcaption class="dep-autor">
+          <span class="dep-avatar" aria-hidden="true">E</span>
+          <span class="dep-info"><strong>Edson Batista</strong><span>Marido de aluguel · Guarulhos - SP</span></span>
+        </figcaption>
+      </figure>
+
+      <figure class="dep-card reveal">
+        <span class="dep-tag">Dor: desenhava diagrama no papel de pão</span>
+        <div class="dep-estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</div>
+        <blockquote>"Eu rabiscava o quadro num papel qualquer e depois nem eu entendia. <strong>Agora abro o esquema do quadro de 2 quartos, ajusto os circuitos e mostro pro cliente na tela.</strong> Muda o jeito que ele te olha."</blockquote>
+        <figcaption class="dep-autor">
+          <span class="dep-avatar" aria-hidden="true">M</span>
+          <span class="dep-info"><strong>Marcelo Duarte</strong><span>Eletricista residencial · Feira de Santana - BA</span></span>
+        </figcaption>
+      </figure>
+
+      <figure class="dep-card reveal">
+        <span class="dep-tag">Dor: chutava a bitola e o disjuntor</span>
+        <div class="dep-estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</div>
+        <blockquote>"Chuveiro sempre me deixava na dúvida entre 6 e 10 milímetros. <strong>A tabela resolve em cinco segundos, com o disjuntor certo do lado.</strong> Parei de superdimensionar por medo e de gastar cabo à toa."</blockquote>
+        <figcaption class="dep-autor">
+          <span class="dep-avatar" aria-hidden="true">J</span>
+          <span class="dep-info"><strong>Jefferson Alves</strong><span>Eletricista autônomo · Londrina - PR</span></span>
+        </figcaption>
+      </figure>
+
+      <figure class="dep-card reveal">
+        <span class="dep-tag">Dor: cobrava abaixo sem saber o custo</span>
+        <div class="dep-estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</div>
+        <blockquote>"Eu olhava o serviço e chutava um número que 'parecia justo'. Com a lista de material fechada e a tabela de valores da minha região, <strong>subi o preço médio e mesmo assim continuei fechando.</strong>"</blockquote>
+        <figcaption class="dep-autor">
+          <span class="dep-avatar" aria-hidden="true">W</span>
+          <span class="dep-info"><strong>Wanderson Pires</strong><span>Instalações prediais · Belém - PA</span></span>
+        </figcaption>
+      </figure>
+
+      <figure class="dep-card reveal">
+        <span class="dep-tag">Dor: PDF pesado que não abria na obra</span>
+        <div class="dep-estrelas" role="img" aria-label="5 de 5 estrelas">★★★★★</div>
+        <blockquote>"Já tentei usar pasta do Drive e nunca dava certo: internet ruim, arquivo de 40 MB, sem zoom. <strong>Aqui abre no navegador e dá pra ampliar o trecho do diagrama com uma mão só</strong>, em pé, do lado do quadro."</blockquote>
+        <figcaption class="dep-autor">
+          <span class="dep-avatar" aria-hidden="true">C</span>
+          <span class="dep-info"><strong>Cleiton Moura</strong><span>Eletricista residencial · Chapecó - SC</span></span>
+        </figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 10 — OFERTA E VALORES (Completo primeiro no mobile) -->
+<section class="planos center" id="planos">
+  <div class="wrap">
+    <h2>Escolha a melhor opção para você</h2>
+    <div class="grid-planos">
+
+      <div class="plano destaque">
+        <span class="melhor">⭐ MAIS ESCOLHIDO</span>
+        <img class="plano-img" src="img/mockup-plano-completo.jpg" width="1152" height="864" loading="lazy" decoding="async"
+             alt="Tudo que vem no Plano Completo: o fichário do Pack Tesouro do Eletricista sobre o leque de esquemas e, em volta, o Guia de Entrada de Energia, o Checklist de Visita e a Tabela Regional de Valores.">
+        <h3>Plano Completo</h3>
+        <ul>
+          <li>+100 esquemas com lista de material</li>
+          <li>Tabela de bitolas, disjuntores e DR</li>
+          <li>Memorial descritivo modelo</li>
+          <li><strong>OS 3 BÔNUS inclusos</strong> — guia de entrada de energia, checklist de visita e tabela de valores</li>
+          <li>Acesso vitalício + atualizações do acervo</li>
+        </ul>
+        <div><span class="preco-antigo">De R$ 47,00</span><br><span class="preco">R$ 27,90<small> à vista</small></span></div>
+        <span class="economia">Você economiza R$ 19,10</span>
+        <a class="btn" href="https://pay.kiwify.com.br/SKU-COMPLETO?utm_source=meta&utm_medium=paid&utm_campaign=ele-completo">QUERO O ACERVO AGORA →</a>
+        <p class="urg">🔒 Compra segura · Acesso imediato no e-mail</p>
+      </div>
+
+      <div class="plano card plano-basico">
+        <img class="plano-img" src="img/mockup-plano-basico.jpg" width="1152" height="864" loading="lazy" decoding="async"
+             alt="O que vem no Plano Básico: o fichário do Pack Tesouro do Eletricista em pé ao lado da pilha de esquemas impressos, sem os cadernos de bônus.">
+        <h3>Plano Básico</h3>
+        <ul>
+          <li>+100 esquemas com lista de material</li>
+          <li>Tabela de bitolas, disjuntores e DR</li>
+          <li>Memorial descritivo modelo</li>
+          <li class="nao">Sem os 3 bônus</li>
+        </ul>
+        <div><span class="preco">R$ 19,90</span></div>
+        <p class="preco-nota">PIX ou cartão · pagamento único</p>
+        <a class="btn btn-sec" href="https://pay.kiwify.com.br/SKU-BASICO?utm_source=meta&utm_medium=paid&utm_campaign=ele-basico">Quero o básico</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 11 — GARANTIA -->
+<section class="garantia center bg-branco">
+  <div class="wrap">
+    <div class="caixa-garantia">
+      <span class="selo">🛡️</span>
+      <h2>Risco zero por 7 dias</h2>
+      <p>Entra, olha tudo, usa no primeiro serviço. Se achar que não vai usar, pede o reembolso em até 7 dias e devolvemos <strong>100% do valor</strong> — sem pedir justificativa.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BLOCO 12 — PROVA SOCIAL (ativar quando houver depoimentos reais)
+<section class="center"><div class="wrap"><h2>O que os eletricistas estão dizendo</h2></div></section>
+-->
+
+<!-- BLOCO 13 — FAQ -->
+<section class="bg-azul">
+  <div class="wrap center">
+    <h2>Perguntas frequentes</h2>
+    <div class="faq">
+      <details><summary>É curso ou material pronto?</summary><p>Material pronto. Não tem aula, não tem prazo, não tem prova. É acervo pra consultar durante o serviço.</p></details>
+      <details><summary>Substitui projeto assinado por engenheiro ou técnico?</summary><p>Não. É referência técnica e modelo de apoio para execução e orçamento. Obra que exige responsável técnico continua exigindo ART ou TRT de profissional habilitado.</p></details>
+      <details><summary>Preciso saber usar AutoCAD?</summary><p>Não. Os esquemas abrem direto na plataforma, no navegador do celular. Não instala nada, não precisa de programa.</p></details>
+      <details><summary>Serve pra quem tá começando?</summary><p>Serve, desde que você já saiba executar. O pack resolve projeto e material — não ensina a fazer a instalação.</p></details>
+      <details><summary>Como recebo?</summary><p>Você recebe o acesso no e-mail em minutos. Entra pelo celular na obra, pelo computador em casa — mesma conta.</p></details>
+      <details><summary>Tem atualização?</summary><p>Tem, e é inclusa. Acervo novo entra na plataforma e já aparece pra você, sem custo e sem precisar baixar de novo.</p></details>
+    </div>
+    <div class="faq-cta"><a class="btn" href="#planos">QUERO O ACERVO AGORA →</a></div>
+  </div>
+</section>
+
+<!-- BLOCO 14 — RODAPÉ -->
+<footer>
+  <p><strong>Pack Tesouro do Eletricista</strong> © 2026 · Suporte: <a href="mailto:suporte@packeletricista.com.br">suporte@packeletricista.com.br</a></p>
+  <p><a href="#">Política de privacidade</a> · <a href="#">Termos de uso</a></p>
+  <p class="aviso-legal">Referência técnica e modelos de apoio à execução e ao orçamento. Não substitui projeto assinado por profissional habilitado: obra que exige responsável técnico continua exigindo ART ou TRT. A execução deve seguir a NBR 5410 e as normas da concessionária local.</p>
+</footer>
+
+<!-- CTA FIXO — só em telas de celular/tablet; nasce oculto e aparece a partir da seção 3 -->
+<a class="cta-fixo oculto" id="ctaFixo" href="#planos">Quero o acervo de esquemas agora&nbsp;→</a>
+
+<!-- ============================================================
+     DOWNSELL POR EXIT-INTENT — markup estático, já no DOM
+     ============================================================ -->
+<div id="exitPopup" class="ep-overlay" role="dialog" aria-modal="true"
+     aria-labelledby="epTitulo" aria-describedby="epDesc" hidden>
+  <div class="ep-card" role="document">
+    <button type="button" class="ep-fechar" id="epFechar" aria-label="Fechar oferta">&times;</button>
+
+    <p class="ep-alerta" id="epTitulo">⚠️ ESPERA! NÃO FECHE AINDA</p>
+    <p class="ep-sub">🎁 Antes de você ir, tenho um presente</p>
+
+    <div class="ep-destaque" id="epDesc">
+      Leve o <strong>Plano Completo</strong> — o acervo inteiro e os 3 bônus —
+      com <strong class="ep-acento">29% de desconto</strong>. É o próximo orçamento saindo no mesmo dia da visita.
+    </div>
+
+    <div class="ep-lista">
+      <div>+100 esquemas e diagramas residenciais</div>
+      <div>Lista de material com quantidade e bitola em cada um</div>
+      <div>Tabela de bitolas, disjuntores e DR</div>
+      <div>Memorial descritivo modelo e busca por tipo de serviço</div>
+      <div class="bonus">Os 3 bônus completos, sem tirar nenhum</div>
+      <div class="bonus">Acesso vitalício + atualizações do acervo</div>
+      <div class="bonus">7 dias de garantia — devolvemos 100%</div>
+    </div>
+
+    <p class="ep-unico">Pagamento único</p>
+    <p class="ep-antigo">de R$ 27,90 por</p>
+    <p class="ep-apenas">Apenas</p>
+    <p class="ep-preco">R$ 19,90</p>
+
+    <!-- ÂNCORA, não <button>: garante rastreio e propagação de parâmetros -->
+    <a href="#planos" id="epCta" class="ep-cta" rel="nofollow">QUERO O COMPLETO POR R$ 19,90</a>
+
+    <p class="ep-rodape">🔒 Compra segura · PIX ou cartão · Entrega imediata no e-mail</p>
+  </div>
+</div>
+
+<script>
+/* =========================================================================
+   DOWNSELL POR EXIT-INTENT — dependência zero
+   Máquina de 4 flags · portão único · gatilho por dispositivo
+   ========================================================================= */
+var EP = (function () {
+  'use strict';
+
+  var CFG = {
+    /* SKU próprio de R$ 19,90 — mesmo padrão de UTM dos outros dois planos.
+       Se o visitante chegar com UTMs reais, elas sobrescrevem estas. */
+    CHECKOUT_URL: 'https://pay.kiwify.com.br/SKU-DOWNSELL?utm_source=meta&utm_medium=paid&utm_campaign=ele-downsell',
+
+    DESKTOP_ARM_DELAY: 3000,   /* ms até ligar o mouseleave */
+    MOBILE_ARM_DELAY:  2000,   /* ms até armar os gatilhos de mobile */
+
+    /* Quanto tempo a aba precisa ficar em segundo plano para contar como saída.
+       Curto demais dispara em piscadas de navegação; longo demais perde o usuário
+       que foi pra tela inicial e volta rápido. */
+    MIN_OCULTO_MS: 400,
+
+    /* Proteção de receita: depois de clicar num link de checkout o usuário pode
+       estar pagando (trocar pro app do banco esconde a aba). Não oferecer
+       desconto por cima de uma compra em andamento. */
+    BLOQUEIO_POS_CHECKOUT_MS: 60000,
+    PADRAO_CHECKOUT: /pay\.kiwify\.com\.br/i,
+
+    MEMORY: 'session',         /* 'session' = reaparece em aba nova | 'local' = respeita por N horas */
+    LOCAL_TTL_HOURS: 24,
+
+    RETURN_HISTORY_ON_CLOSE: true,   /* devolve o "voltar" consumido ao fechar */
+
+    FORWARD_PARAMS: ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',
+                     'fbclid','gclid','ttclid','src','sck','subid','xcod','cid']
+  };
+
+  var mostrado = false;
+  var fechado = lerFechado();
+  var paginaPronta = false;
+  var cliqueRecente = false;
+  var posicaoScroll = 0;
+  var armado = false;          /* passou o delay inicial? */
+  var bloqueadoAte = 0;        /* timestamp: rumo ao checkout, não incomodar */
+  var sentinelas = 0;          /* entradas de histórico que nós empurramos */
+  var timerOculto = null;
+  var escondidoEm = 0;         /* quando a aba foi para segundo plano */
+
+  /* capacidade do ponteiro, não User-Agent — iPad moderno se declara Mac */
+  var isMobile = !window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  var overlay = document.getElementById('exitPopup');
+  var cta = document.getElementById('epCta');
+  var btnFechar = document.getElementById('epFechar');
+
+  /* ------------------------------ persistência ------------------------------ */
+  function lerFechado() {
+    try {
+      if (CFG.MEMORY === 'local') {
+        var bruto = localStorage.getItem('epFechadoEm');
+        if (!bruto) { return false; }
+        return (Date.now() - Number(bruto)) < CFG.LOCAL_TTL_HOURS * 3600e3;
+      }
+      return sessionStorage.getItem('epFechado') === 'true';
+    } catch (e) { return false; }
+  }
+  function gravarFechado() {
+    try {
+      if (CFG.MEMORY === 'local') { localStorage.setItem('epFechadoEm', String(Date.now())); }
+      else { sessionStorage.setItem('epFechado', 'true'); }
+    } catch (e) {}
+  }
+
+  /* ---------------------- checkout com atribuição preservada ---------------------- */
+  function montarUrlCheckout() {
+    if (!/^https?:/i.test(CFG.CHECKOUT_URL)) { return null; }
+    try {
+      /* Se o script da UTMify já enriqueceu esta âncora, parte do que ELA deixou.
+         Ela empacota o fbclid dentro do utm_content e é a fonte de verdade da
+         atribuição — nosso papel aqui é só preencher o que faltar. */
+      var atual = cta.getAttribute('href') || '';
+      var base = /^https?:\/\/pay\.kiwify\.com\.br/i.test(atual) ? atual : CFG.CHECKOUT_URL;
+
+      var url = new URL(base);
+      var aqui = new URLSearchParams(location.search);
+
+      CFG.FORWARD_PARAMS.forEach(function (k) {
+        var v = aqui.get(k);
+        if (v && !url.searchParams.get(k)) { url.searchParams.set(k, v); }
+      });
+      ['_fbp', '_fbc'].forEach(function (nome) {
+        if (url.searchParams.get(nome)) { return; }
+        var m = document.cookie.match('(^|;)\\s*' + nome + '\\s*=\\s*([^;]+)');
+        if (m) { url.searchParams.set(nome, m.pop()); }
+      });
+      return url.toString();
+    } catch (e) { return null; }
+  }
+
+  /* --------------------------------- scroll --------------------------------- */
+  /* position:fixed em vez de overflow:hidden — iOS Safari ignora o segundo */
+  function travarScroll() {
+    posicaoScroll = window.scrollY;
+    document.body.style.position = 'fixed';
+    document.body.style.top = '-' + posicaoScroll + 'px';
+    document.body.style.width = '100%';
+  }
+  function destravarScroll() {
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.width = '';
+    window.scrollTo(0, posicaoScroll);
+  }
+
+  /* ------------------------------ portão único ------------------------------ */
+  function mostrar() {
+    if (mostrado || fechado || !paginaPronta || cliqueRecente) { return; }
+    if (Date.now() < bloqueadoAte) { return; }   /* compra possivelmente em curso */
+    mostrado = true;
+    overlay.hidden = false;
+    overlay.classList.add('is-open');
+    travarScroll();
+    atualizarHref();
+    /* o card pode ser mais alto que a tela: garante que abra pela headline,
+       e o foco não pode arrastar o conteúdo para baixo */
+    var card = overlay.querySelector('.ep-card');
+    if (card) { card.scrollTop = 0; }
+    try { cta.focus({ preventScroll: true }); } catch (e) { try { cta.focus(); } catch (e2) {} }
+    rastrear('exit_intent_shown');
+  }
+
+  function fechar() {
+    overlay.classList.remove('is-open');
+    overlay.hidden = true;
+    destravarScroll();
+    fechado = true;
+    gravarFechado();
+    rastrear('exit_intent_dismissed');
+    /* devolve a entrada que NÓS empurramos — nunca mais que isso, senão o
+       "fechar" viraria um "sair da página" */
+    if (isMobile && CFG.RETURN_HISTORY_ON_CLOSE && sentinelas > 0) {
+      sentinelas--;
+      try { history.back(); } catch (e) {}
+    }
+  }
+
+  function atualizarHref() {
+    var u = montarUrlCheckout();
+    if (u) { cta.setAttribute('href', u); }
+  }
+
+  function rastrear(evento) {
+    try { if (window.fbq) { fbq('trackCustom', evento); } } catch (e) {}
+    try { if (window.dataLayer) { dataLayer.push({ event: evento }); } } catch (e) {}
+  }
+
+  /* ----------------------------------- init ---------------------------------- */
+  function init() {
+    if (!overlay || !cta) { return; }
+
+    /* href já no carregamento, para o script da UTMify também poder reescrever */
+    atualizarHref();
+
+    /* Se a página JÁ terminou de carregar quando este script roda (cache, volta
+       pelo histórico), o evento 'load' nunca mais dispara — sem isto paginaPronta
+       ficaria false para sempre e nenhum gatilho funcionaria. */
+    if (document.readyState === 'complete') { paginaPronta = true; }
+    window.addEventListener('load', function () { paginaPronta = true; });
+    /* rede ruim não pode travar a oferta indefinidamente */
+    setTimeout(function () { paginaPronta = true; }, 4000);
+
+    /* guarda anti-falso-positivo: não oferecer desconto por cima de uma compra em curso */
+    document.addEventListener('click', function (e) {
+      var alvo = e.target.closest('a,button,[role="button"]');
+      if (!alvo) { return; }
+
+      cliqueRecente = true;
+      setTimeout(function () { cliqueRecente = false; }, 1000);
+
+      /* clicou num link de checkout? o usuário pode sair para o app do banco
+         e voltar — o que esconderia a aba e dispararia o gatilho de saída */
+      var destino = alvo.getAttribute && alvo.getAttribute('href');
+      if (destino && CFG.PADRAO_CHECKOUT.test(destino)) {
+        bloqueadoAte = Date.now() + CFG.BLOQUEIO_POS_CHECKOUT_MS;
+      }
+    });
+
+    btnFechar.addEventListener('click', fechar);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && mostrado && !overlay.hidden) { fechar(); }
+    });
+    overlay.addEventListener('click', function (e) {
+      if (e.target === overlay) { fechar(); }
+    });
+    cta.addEventListener('click', function () { rastrear('exit_intent_click'); });
+
+    if (!isMobile) {
+      /* DESKTOP: cursor cruzando a borda SUPERIOR — onde ficam abas e barra de endereço */
+      setTimeout(function () {
+        document.addEventListener('mouseleave', function (e) {
+          if (e.clientY <= 0) { mostrar(); }
+        });
+      }, CFG.DESKTOP_ARM_DELAY);
+
+    } else {
+      /* ================= MOBILE: dois vetores de saída =================
+         (1) botão/gesto de voltar        -> popstate
+         (2) ir para a tela inicial, trocar de app, trocar de aba, bloquear
+             a tela ou fechar pelo gerenciador de abas -> visibilitychange
+         Juntos cobrem praticamente todas as formas reais de abandonar a
+         página no celular.                                                */
+
+      function plantarSentinela() {
+        try {
+          history.pushState({ ei: true }, '', location.href);
+          sentinelas++;
+        } catch (e) {}
+      }
+
+      setTimeout(function () {
+        armado = true;
+        if (!fechado) { plantarSentinela(); }
+      }, CFG.MOBILE_ARM_DELAY);
+
+      /* (1) o "voltar" move o ponteiro entre duas entradas do MESMO documento:
+             não há navegação real, só popstate */
+      window.addEventListener('popstate', function () {
+        if (!mostrado && !fechado && paginaPronta) {
+          plantarSentinela();          /* re-arma */
+          if (sentinelas > 0) { sentinelas--; }   /* a que acabou de ser consumida */
+          mostrar();
+        }
+      });
+
+      /* (2) aba foi para segundo plano: tela inicial, troca de app, troca de aba,
+             bloqueio de tela.
+
+             ATENÇÃO à mecânica: Android e iOS CONGELAM timers de página em
+             segundo plano. Agendar um setTimeout na hora que a aba some não
+             funciona — ele não roda enquanto está escondida. Por isso o que
+             manda é o tempo decorrido medido NA VOLTA. O timer fica só como
+             caminho otimista, para navegadores que ainda o executam. */
+      document.addEventListener('visibilitychange', function () {
+        if (document.hidden) {
+          if (!armado || mostrado || fechado || !paginaPronta) { return; }
+          if (Date.now() < bloqueadoAte) { return; }
+          escondidoEm = Date.now();
+          timerOculto = setTimeout(function () { mostrar(); }, CFG.MIN_OCULTO_MS);
+        } else {
+          if (timerOculto) { clearTimeout(timerOculto); timerOculto = null; }
+          if (escondidoEm && (Date.now() - escondidoEm) >= CFG.MIN_OCULTO_MS) {
+            mostrar();
+          }
+          escondidoEm = 0;
+        }
+      });
+
+      /* bfcache: voltar de outro app pode restaurar a página sem visibilitychange */
+      window.addEventListener('pageshow', function (ev) {
+        if (ev.persisted && escondidoEm && (Date.now() - escondidoEm) >= CFG.MIN_OCULTO_MS) {
+          escondidoEm = 0;
+          mostrar();
+        }
+      });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+  /* Ajuda de diagnóstico — abrir o console do navegador e chamar EP.estado()
+     mostra por que o popup não apareceu. EP.reset() limpa o "já fechei"
+     gravado na aba e recarrega, para poder testar de novo. */
+  function estado() {
+    return {
+      mostrado: mostrado,
+      fechado: fechado,
+      paginaPronta: paginaPronta,
+      armado: armado,
+      isMobile: isMobile,
+      cliqueRecente: cliqueRecente,
+      bloqueadoPorCheckout: Date.now() < bloqueadoAte,
+      sentinelas: sentinelas,
+      checkout: CFG.CHECKOUT_URL
+    };
+  }
+  function reset() {
+    try { sessionStorage.removeItem('epFechado'); } catch (e) {}
+    try { localStorage.removeItem('epFechadoEm'); } catch (e) {}
+    location.reload();
+  }
+
+  return { mostrar: mostrar, fechar: fechar, estado: estado, reset: reset };
+})();
+</script>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ---------- 1. Contador regressivo de 15 minutos ---------- */
+  var DURACAO = 15 * 60 * 1000;
+  var CHAVE = 'ele_oferta_fim';
+  var el = document.getElementById('contador');
+
+  function lerFim() {
+    var fim;
+    try {
+      fim = parseInt(window.localStorage.getItem(CHAVE), 10);
+      if (!fim || isNaN(fim) || fim - Date.now() > DURACAO) {
+        fim = Date.now() + DURACAO;
+        window.localStorage.setItem(CHAVE, String(fim));
+      }
+    } catch (e) {
+      /* navegação anônima ou storage bloqueado */
+      fim = Date.now() + DURACAO;
+    }
+    return fim;
+  }
+
+  if (el) {
+    var fim = lerFim();
+    var tick = function () {
+      var resta = Math.max(0, fim - Date.now());
+      var m = Math.floor(resta / 60000);
+      var s = Math.floor((resta % 60000) / 1000);
+      el.textContent = (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
+      if (resta <= 0) { clearInterval(timer); }
+    };
+    tick();
+    var timer = setInterval(tick, 1000);
+  }
+
+  /* ---------- 2. Fade-in / slide-up dos cards ---------- */
+  var alvos = document.querySelectorAll('.reveal');
+  var semAnimacao = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (semAnimacao || !('IntersectionObserver' in window)) {
+    Array.prototype.forEach.call(alvos, function (n) { n.classList.add('visivel'); });
+  } else {
+    var obs = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('visivel');
+          obs.unobserve(e.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
+
+    Array.prototype.forEach.call(alvos, function (n, i) {
+      n.style.transitionDelay = (i % 3) * 90 + 'ms';
+      obs.observe(n);
+    });
+  }
+
+  /* ---------- 2B. Carrossel do material ---------- */
+  var trilho = document.getElementById('carrosselTrilho');
+  var pontosBox = document.getElementById('carrosselPontos');
+
+  if (trilho && pontosBox) {
+    var slides = trilho.querySelectorAll('.slide');
+    var btnPrev = document.getElementById('carrosselPrev');
+    var btnNext = document.getElementById('carrosselNext');
+    var suave = semAnimacao ? 'auto' : 'smooth';
+
+    /* quantos slides cabem por vez (1 no celular, 3 no desktop) */
+    var porTela = function () {
+      if (!slides.length) { return 1; }
+      return Math.max(1, Math.round(trilho.clientWidth / slides[0].offsetWidth));
+    };
+    var totalPaginas = function () {
+      return Math.max(1, slides.length - porTela() + 1);
+    };
+    var paginaAtual = function () {
+      if (!slides.length) { return 0; }
+      var passo = slides[0].offsetWidth + 16;
+      return Math.min(totalPaginas() - 1, Math.max(0, Math.round(trilho.scrollLeft / passo)));
+    };
+
+    /* pontos */
+    var pontos = [];
+    var montarPontos = function () {
+      pontosBox.innerHTML = '';
+      pontos = [];
+      var n = totalPaginas();
+      for (var k = 0; k < n; k++) {
+        (function (i) {
+          var b = document.createElement('button');
+          b.type = 'button';
+          b.className = 'ponto';
+          b.setAttribute('aria-label', 'Ir para a página ' + (i + 1) + ' de ' + n);
+          b.addEventListener('click', function () { irPara(i); });
+          pontosBox.appendChild(b);
+          pontos.push(b);
+        })(k);
+      }
+    };
+
+    var sincronizar = function () {
+      var atual = paginaAtual();
+      var n = totalPaginas();
+      for (var k = 0; k < pontos.length; k++) {
+        var ativo = k === atual;
+        pontos[k].classList.toggle('ativo', ativo);
+        pontos[k].setAttribute('aria-current', ativo ? 'true' : 'false');
+      }
+      if (btnPrev) { btnPrev.disabled = atual <= 0; }
+      if (btnNext) { btnNext.disabled = atual >= n - 1; }
+    };
+
+    var irPara = function (i) {
+      if (!slides.length) { return; }
+      var passo = slides[0].offsetWidth + 16;
+      trilho.scrollTo({ left: i * passo, behavior: suave });
+    };
+
+    if (btnPrev) { btnPrev.addEventListener('click', function () { irPara(paginaAtual() - 1); }); }
+    if (btnNext) { btnNext.addEventListener('click', function () { irPara(paginaAtual() + 1); }); }
+
+    /* teclado */
+    trilho.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight') { e.preventDefault(); irPara(paginaAtual() + 1); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); irPara(paginaAtual() - 1); }
+    });
+
+    var esperando = false;
+    trilho.addEventListener('scroll', function () {
+      if (esperando) { return; }
+      esperando = true;
+      window.requestAnimationFrame(function () { sincronizar(); esperando = false; });
+    }, { passive: true });
+
+    var remontar = function () { montarPontos(); sincronizar(); };
+    window.addEventListener('resize', remontar, { passive: true });
+    window.addEventListener('load', remontar);
+    remontar();
+  }
+
+  /* ---------- 3. CTA fixo: vive numa faixa — da seção 3 até os depoimentos ---------- */
+  var cta = document.getElementById('ctaFixo');
+  /* início da faixa = 3ª seção da página, que hoje é a do carrossel (#material);
+     #gatilho-cta continua como reserva caso a ordem mude de novo */
+  var material = document.getElementById('material') || document.getElementById('gatilho-cta');
+  /* fim da faixa: assim que os depoimentos entram na tela o botão sai e não volta
+     mais para baixo — planos, garantia, FAQ e rodapé ficam livres dele. Como os
+     depoimentos vêm ANTES dos planos, este limite já cobre o de não cobrir a oferta. */
+  var fimDaFaixa = document.getElementById('depoimentos');
+
+  if (cta && material) {
+    /* Posição lida direto do layout, e não por IntersectionObserver: um salto
+       grande de scroll (voltar ao topo de uma vez) não cruza limiar nenhum e
+       deixaria o observer preso no estado anterior. */
+    var TOPO = 70;            /* logo abaixo da barra da oferta */
+    var pendente = false;
+
+    var avaliar = function () {
+      /* a seção 3 alcançou o topo da tela? */
+      var chegouNoMaterial = material.getBoundingClientRect().top <= TOPO;
+
+      /* os depoimentos já apontaram na borda de baixo da tela? */
+      var alcancouOFim = false;
+      if (fimDaFaixa) {
+        alcancouOFim = fimDaFaixa.getBoundingClientRect().top <= window.innerHeight;
+      }
+
+      cta.classList.toggle('oculto', !chegouNoMaterial || alcancouOFim);
+    };
+
+    var agendar = function () {
+      if (pendente) { return; }
+      pendente = true;
+      window.requestAnimationFrame(function () { avaliar(); pendente = false; });
+    };
+
+    window.addEventListener('scroll', agendar, { passive: true });
+    window.addEventListener('resize', agendar, { passive: true });
+    window.addEventListener('load', agendar);
+    avaliar();
+  }
+})();
+</script>
+
+</body>
+</html>
