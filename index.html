@@ -10,26 +10,23 @@
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#E9F0F7">
 
-<!-- META PIXEL: colar o código do Pixel aqui antes de subir a campanha (Etapa 9) -->
-<!-- ▼ COLE O CÓDIGO DO PIXEL NA LINHA EM BRANCO ABAIXO ▼ -->
-
-<!-- ▲ FIM DO PIXEL ▲ -->
-
-<!-- UTMIFY — captura de UTMs (mantém a origem do clique até o checkout Kiwify) -->
-<script src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-        data-utmify-prevent-xcod-sck
-        data-utmify-prevent-subids
-        async defer></script>
-
-<!-- UTMIFY — pixel de conversão -->
+<!-- Meta Pixel Code -->
 <script>
-  window.pixelId = "COLE_AQUI_O_PIXEL_ID_DA_UTMIFY_DESTE_PRODUTO";
-  var a = document.createElement("script");
-  a.setAttribute("async", "");
-  a.setAttribute("defer", "");
-  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-  document.head.appendChild(a);
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '901462579287815');
+fbq('track', 'PageView');
 </script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=901462579287815&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1133,7 +1130,7 @@ body{padding-bottom:84px}
         </ul>
         <div><span class="preco-antigo">De R$ 47,00</span><br><span class="preco">R$ 27,90<small> à vista</small></span></div>
         <span class="economia">Você economiza R$ 19,10</span>
-        <a class="btn" href="https://pay.kiwify.com.br/SKU-COMPLETO?utm_source=meta&utm_medium=paid&utm_campaign=ele-completo">QUERO O ACERVO AGORA →</a>
+        <a class="btn" href="https://pay.wiapy.com/L1VrHvNhTnFP?utm_source=meta&utm_medium=paid&utm_campaign=ele-completo">QUERO O ACERVO AGORA →</a>
         <p class="urg">🔒 Compra segura · Acesso imediato no e-mail</p>
       </div>
 
@@ -1149,7 +1146,7 @@ body{padding-bottom:84px}
         </ul>
         <div><span class="preco">R$ 19,90</span></div>
         <p class="preco-nota">PIX ou cartão · pagamento único</p>
-        <a class="btn btn-sec" href="https://pay.kiwify.com.br/SKU-BASICO?utm_source=meta&utm_medium=paid&utm_campaign=ele-basico">Quero o básico</a>
+        <a class="btn btn-sec" href="https://pay.wiapy.com/QiGIeGUdw7CT?utm_source=meta&utm_medium=paid&utm_campaign=ele-basico">Quero o básico</a>
       </div>
 
     </div>
@@ -1246,7 +1243,7 @@ var EP = (function () {
   var CFG = {
     /* SKU próprio de R$ 19,90 — mesmo padrão de UTM dos outros dois planos.
        Se o visitante chegar com UTMs reais, elas sobrescrevem estas. */
-    CHECKOUT_URL: 'https://pay.kiwify.com.br/SKU-DOWNSELL?utm_source=meta&utm_medium=paid&utm_campaign=ele-downsell',
+    CHECKOUT_URL: 'https://pay.wiapy.com/IIgDjaeX58m?utm_source=meta&utm_medium=paid&utm_campaign=ele-downsell',
 
     DESKTOP_ARM_DELAY: 3000,   /* ms até ligar o mouseleave */
     MOBILE_ARM_DELAY:  2000,   /* ms até armar os gatilhos de mobile */
@@ -1260,7 +1257,7 @@ var EP = (function () {
        estar pagando (trocar pro app do banco esconde a aba). Não oferecer
        desconto por cima de uma compra em andamento. */
     BLOQUEIO_POS_CHECKOUT_MS: 60000,
-    PADRAO_CHECKOUT: /pay\.kiwify\.com\.br/i,
+    PADRAO_CHECKOUT: /pay\.wiapy\.com/i,
 
     MEMORY: 'session',         /* 'session' = reaparece em aba nova | 'local' = respeita por N horas */
     LOCAL_TTL_HOURS: 24,
@@ -1311,11 +1308,11 @@ var EP = (function () {
   function montarUrlCheckout() {
     if (!/^https?:/i.test(CFG.CHECKOUT_URL)) { return null; }
     try {
-      /* Se o script da UTMify já enriqueceu esta âncora, parte do que ELA deixou.
-         Ela empacota o fbclid dentro do utm_content e é a fonte de verdade da
-         atribuição — nosso papel aqui é só preencher o que faltar. */
+      /* Se o carimbo de atribuição já enriqueceu esta âncora, parte do que ELE
+         deixou: as UTMs, o fbclid e os cookies _fbp/_fbc do Meta Pixel. Nosso
+         papel aqui é só preencher o que faltar. */
       var atual = cta.getAttribute('href') || '';
-      var base = /^https?:\/\/pay\.kiwify\.com\.br/i.test(atual) ? atual : CFG.CHECKOUT_URL;
+      var base = /^https?:\/\/pay\.wiapy\.com/i.test(atual) ? atual : CFG.CHECKOUT_URL;
 
       var url = new URL(base);
       var aqui = new URLSearchParams(location.search);
@@ -1394,7 +1391,7 @@ var EP = (function () {
   function init() {
     if (!overlay || !cta) { return; }
 
-    /* href já no carregamento, para o script da UTMify também poder reescrever */
+    /* href já no carregamento, para o carimbo de atribuição também alcançar este link */
     atualizarHref();
 
     /* Se a página JÁ terminou de carregar quando este script roda (cache, volta
@@ -1716,6 +1713,68 @@ var EP = (function () {
     window.addEventListener('load', agendar);
     avaliar();
   }
+})();
+</script>
+
+<script>
+/* =========================================================================
+   ATRIBUIÇÃO ATÉ O CHECKOUT + InitiateCheckout do Meta Pixel
+   Carimba nos links do checkout as UTMs da URL da página, o fbclid e os
+   cookies _fbp/_fbc, para o Meta reconhecer a venda como sendo deste
+   anúncio. Dependência zero — nenhum script de terceiro.
+   ========================================================================= */
+(function () {
+  'use strict';
+
+  var PADRAO = /^https?:\/\/pay\.wiapy\.com/i;
+  var PARAMS = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term',
+                'fbclid','gclid','ttclid','src','sck','subid','xcod','cid'];
+
+  function cookie(nome) {
+    var m = document.cookie.match('(^|;)\\s*' + nome + '\\s*=\\s*([^;]+)');
+    return m ? m.pop() : null;
+  }
+
+  function enriquecer(href) {
+    try {
+      var url = new URL(href);
+      var aqui = new URLSearchParams(location.search);
+      PARAMS.forEach(function (k) {
+        var v = aqui.get(k);
+        if (v && !url.searchParams.get(k)) { url.searchParams.set(k, v); }
+      });
+      ['_fbp', '_fbc'].forEach(function (nome) {
+        if (url.searchParams.get(nome)) { return; }
+        var v = cookie(nome);
+        if (v) { url.searchParams.set(nome, v); }
+      });
+      return url.toString();
+    } catch (e) { return href; }
+  }
+
+  function carimbar() {
+    var links = document.querySelectorAll('a[href]');
+    for (var i = 0; i < links.length; i++) {
+      var h = links[i].getAttribute('href') || '';
+      if (PADRAO.test(h)) { links[i].setAttribute('href', enriquecer(h)); }
+    }
+  }
+
+  /* O cookie _fbp só existe depois que o fbevents.js roda: carimba no carregamento
+     e de novo pouco depois, para não perder o _fbp por uma corrida de milissegundos. */
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', carimbar);
+  } else { carimbar(); }
+  setTimeout(carimbar, 1500);
+
+  /* InitiateCheckout: o evento que o Meta usa para otimizar antes da compra. */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) { return; }
+    if (!PADRAO.test(a.getAttribute('href') || '')) { return; }
+    a.setAttribute('href', enriquecer(a.getAttribute('href')));
+    try { if (window.fbq) { fbq('track', 'InitiateCheckout'); } } catch (err) {}
+  }, true);
 })();
 </script>
 
